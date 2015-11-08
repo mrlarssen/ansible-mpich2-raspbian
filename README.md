@@ -1,4 +1,4 @@
-This is an ansible playbook for installing MPICH2 on a raspbian cluster.
+This is an ansible playbook for installing MPICH2 on a raspbian cluster. With small changes to the paths the yaml file, this can be used for any OS as long as python and gcc is present on the servers.
 
 Prerequisites:
 Public/private key authentication between your client and the servers (as root)
