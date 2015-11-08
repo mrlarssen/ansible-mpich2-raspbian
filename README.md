@@ -5,6 +5,10 @@ Public/private key authentication between your client and the servers (as root)
 
 # Install and configure (user root)
 
+Note: If you want the latest version of mpich2, you should change the version name in the yaml file in the following tasks:<br/>
+INSTALL MPICH2 <br/>
+UNARCHIVE MPICH2 <br />
+
 1. Install ansible: apt-get install ansible
 2. Add the ip of the nodes to ansible/hosts file
 3. Run: ansible-playbook main.yml -i hosts <br/> Be patient. This step might take up to an hour. <br/>If it finishes with no errors, you now have MPICH2 up and running!
