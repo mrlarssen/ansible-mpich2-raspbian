@@ -8,7 +8,7 @@ Public/private key authentication between your client and the servers (as root)
 1. Install ansible: apt-get install ansible
 2. Add the ip of the nodes to ansible/hosts file
 3. Run: ansible-playbook main.yml -i hosts
-    Be patient. This step might take up to an hour. If it finishes with no errors, you now have MPICH2 up and running!
+   Be patient. This step might take up to an hour. If it finishes with no errors, you now have MPICH2 up and running!
 
 # Testing (user pi)
 4. Choose a "master" node, and go to /home/pi/mpich2/.
