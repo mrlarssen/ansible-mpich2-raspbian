@@ -3,11 +3,11 @@ This is an ansible playbook for installing MPICH2 on a raspbian cluster.
 Prerequisites:
 Public/private key authentication between your client and the servers (as root)
 
-# Install and configure
+# Install and configure (user root)
 
 1. Install ansible: apt-get install ansible
 2. Add the ip of the nodes to ansible/hosts file
-3. Run logged in as root: ansible-playbook main.yml -i <pathToHostsFile>
+3. Run: ansible-playbook main.yml -i <pathToHostsFile>
     Be patient. This step might take up to an hour. If it finishes with no errors, you now have MPICH2 up and running!
 
 # Testing (user pi)
